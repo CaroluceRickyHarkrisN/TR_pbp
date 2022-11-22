@@ -1,0 +1,14 @@
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit velit ipsum, nulla at corrupti et. Esse nam enim maiores architecto corporis, inventore id animi ex harum ipsa repellat blanditiis ratione ab incidunt, non possimus numquam assumenda et corrupti nihil aperiam vero distinctio perferendis optio. Atque sequi maiores nihil velit dolore libero vitae voluptatem obcaecati. Expedita, accusamus vel! Asperiores deleniti natus non, ab veritatis, nam mollitia amet, suscipit accusantium reiciendis placeat? Culpa ea laboriosam atque nihil distinctio.</p><p>Velit iure laborum soluta perspiciatis commodi, minima et. Explicabo quas quisquam autem rerum, mollitia incidunt sunt dolores aperiam ipsum alias earum excepturi soluta deserunt unde. Officiis reprehenderit molestiae quasi debitis placeat, sint nostrum blanditiis odio sapiente quas corrupti asperiores incidunt consectetur quibusdam pariatur.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, perferendis veniam! Omnis labore aliquam quod illum consequuntur cupiditate suscipit explicabo vero iure. Cumque vitae cum quasi facere totam maxime nostrum qui veritatis suscipit hic reiciendis dolores praesentium, nisi itaque similique, a adipisci at cupiditate provident explicabo necessitatibus repellendus odio. Similique?</p>
+
+Post::create([
+    'title' => 'Judul Ke 3 websign',
+    'category_id' => 2,
+    'slug' => 'judul-ke-lima',
+    'excerpt' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit velit ipsum,',
+    'body' => '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit velit ipsum, nulla at corrupti et. Esse nam enim maiores architecto corporis, inventore id animi ex harum ipsa repellat blanditiis ratione ab incidunt, non possimus numquam assumenda et corrupti nihil aperiam vero distinctio perferendis optio. Atque sequi maiores nihil velit dolore libero vitae voluptatem obcaecati. Expedita, accusamus vel! Asperiores deleniti natus non, ab veritatis, nam mollitia amet, suscipit accusantium reiciendis placeat? Culpa ea laboriosam atque nihil distinctio.</p><p>Velit iure laborum soluta perspiciatis commodi, minima et. Explicabo quas quisquam autem rerum, mollitia incidunt sunt dolores aperiam ipsum alias earum excepturi soluta deserunt unde. Officiis reprehenderit molestiae quasi debitis placeat, sint nostrum blanditiis odio sapiente quas corrupti asperiores incidunt consectetur quibusdam pariatur.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, perferendis veniam! Omnis labore aliquam quod illum consequuntur cupiditate suscipit explicabo vero iure. Cumque vitae cum quasi facere totam maxime nostrum qui veritatis suscipit hic reiciendis dolores praesentium, nisi itaque similique, a adipisci at cupiditate provident explicabo necessitatibus repellendus odio. Similique?</p>'
+    ])
+
+Category::create([
+    'name' => 'personal',
+    'slug' => 'personal'
+    ])
