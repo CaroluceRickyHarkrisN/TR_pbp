@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Project LK Laravel 9
+# Project Pemrograman Berorientasi Platform Dengan Laravel 9 ( Perpustakaan )
 ## Yang perlu disediakan:
 1. [composer](https://getcomposer.org/download/)
 1. web server seperti [XAMPP](https://www.apachefriends.org/download.html) (PHP versi 8^)
