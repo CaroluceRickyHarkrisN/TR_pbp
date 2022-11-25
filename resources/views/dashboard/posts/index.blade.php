@@ -5,6 +5,12 @@
         <h1 class="h2">My Books</h1>
     </div>
 
+    @if (session()->has('success'))
+        <div class="alert alert-success col-lg-10" role="alert">
+            {{ session('success') }}
+        </div>
+    @endif
+
     <div class="table-responsive col-lg-10">
         <a href="/dashboard/posts/create" class="btn btn-primary mb-3"> Add New Book</a>
         <table class="table">
@@ -24,8 +30,12 @@
               <td>{{ $post->category->name }}</td>
               <td>
                 <a href="/dashboard/posts/{{ $post->slug }}" class="badge bg-dark"><span data-feather="eye"></span></a>
-                <a href="" class="badge bg-warning"><span data-feather="settings"></span></a>
-                <a href="" class="badge bg-danger"><span data-feather="trash-2"></span></a>
+                <a href="/dashboard/posts/{{ $post->slug }}/edit" class="badge bg-warning"><span data-feather="settings"></span></a>
+                <form action="/dashboard/posts/{{ $post->slug }}" method="post" class="d-inline">
+                    @method('delete')
+                    @csrf
+                    <button class="badge bg-danger border-0" onclick="return confirm('Delete ?')"><span data-feather="trash-2"></span></button>
+                </form>
               </td>
             </tr>
 

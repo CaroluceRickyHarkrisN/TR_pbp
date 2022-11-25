@@ -6,6 +6,7 @@ use App\Models\Post;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use \Cviebrock\EloquentSluggable\Services\SlugService;
+use Illuminate\Support\Str;
 
 class DashboardPostController extends Controller
 {
@@ -41,7 +42,22 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-        return $request;
+        $validationData = $request->validate([
+            'title' => 'required|max:255',
+            'category_id' => 'required',
+            'image' => 'image|file|max:1024',
+            'body' => 'required',
+        ]);
+        $slug = SlugService::createSlug(Post::class, 'slug', $request->title);
+        $validationData['slug'] = $slug;
+        $validationData['user_id'] = auth()->user()->id;
+        $validationData['excerpt'] = Str::limit(strip_tags($request->body), 200);
+
+        $checkSave = Post::create($validationData);
+
+        return redirect('/dashboard/posts')->with('success', 'New book has been added!');
+
+
     }
 
     /**
@@ -65,7 +81,10 @@ class DashboardPostController extends Controller
      */
     public function edit(Post $post)
     {
-        //
+        return view('dashboard.posts.edit', [
+            'post' => $post,
+            'categories' => Category::all()
+        ]);
     }
 
     /**
@@ -77,7 +96,26 @@ class DashboardPostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
-        //
+        $rules = [
+            'title' => 'required|max:255',
+            'category_id' => 'required',
+            'image' => 'image|file|max:1024',
+            'body' => 'required',
+        ];
+
+        if($request->slug != $post->slug){
+            $rules['slug'] = 'required|unique:posts';
+        }
+
+        $validationData = $request->validate($rules);
+
+        $validationData['user_id'] = auth()->user()->id;
+        $validationData['excerpt'] = Str::limit(strip_tags($request->body), 200);
+
+        Post::where('id', $post->id)->update($validationData);
+
+        return redirect('/dashboard/posts')->with('success', 'Book has been updated!');
+
     }
 
     /**
@@ -88,7 +126,9 @@ class DashboardPostController extends Controller
      */
     public function destroy(Post $post)
     {
-        //
+        Post::destroy($post->id);
+        return redirect('/dashboard/posts')->with('success', 'Book has been deleted!');
+
     }
 
     public function checkSlug(Request $request){

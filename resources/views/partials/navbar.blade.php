@@ -7,16 +7,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link " href="/">Home</a>
+            <a class="nav-link {{ Request::is('/') ? 'active' : ''}}" href="/">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link {{ Request::is('about') ? 'active' : ''}}" href="/about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/about">About</a>
+            <a class="nav-link {{ Request::is('posts') ? 'active' : ''}}" href="/posts">Book</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/posts">Book</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/categories">Categories</a>
+            <a class="nav-link {{ Request::is('categories') ? 'active' : ''}}" href="/categories">Categories</a>
           </li>
         </ul>
 
