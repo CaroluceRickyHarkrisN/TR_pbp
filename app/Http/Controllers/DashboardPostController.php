@@ -48,6 +48,10 @@ class DashboardPostController extends Controller
             'image' => 'image|file|max:1024',
             'body' => 'required',
         ]);
+        if($request->file('image')){
+        $validationData['image'] = $request->file('image')->store('post-images');
+        }
+
         $slug = SlugService::createSlug(Post::class, 'slug', $request->title);
         $validationData['slug'] = $slug;
         $validationData['user_id'] = auth()->user()->id;
