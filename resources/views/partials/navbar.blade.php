@@ -52,7 +52,7 @@
   }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100">
   <div class="container">
     </b><a class="navbar-brand" href="/">
       <img src="img/usmanhome/logo.png" alt="" width="30" class="d-inline-block align-text-top">
@@ -98,9 +98,8 @@
         </li>
         @else
         <li class="nav-item">
-          <a href="/login">
-            <button class="button-primary" href="/login" class="nav-link"><i class=""></i>Login</button></a>
-        </li>
+                <a href="/login" class="nav-link"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+            </li>
 
         @endauth
       </ul>
