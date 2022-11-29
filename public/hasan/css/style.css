@@ -1,0 +1,49 @@
+col-md-4{
+  margin: 1em;
+}
+.col-md-4:hover{
+  transform: scale(1.1);
+}
+.col-md-4 {
+  transition: transform 0.2s ease;
+}
+.col-md-4 {
+  box-shadow: 0 2px 3px 0 rgba(22, 22, 26, 0);
+  border-radius: 0;
+  border: 0;
+  margin-top: 10vh;
+}
+.col-md-3:hover{
+  transform: scale(1.1);
+}
+.col-md-3 {
+  transition: transform 0.2s ease;
+}
+.col-md-3 {
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0);
+  border-radius: 0;
+  border: 0;
+}
+
+#hero{
+    background-image: url(https://assets.weforum.org/article/image/responsive_big_webp_FDWYzoZ1YruOxYd-sXy9-2BYZ2tFvCpj9tzf9qnTREQ.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+.hero-judul h1{
+  text-align: center;
+  margin-top: 220px;
+  color: #fff;
+}
+
+.hero-judul h2{
+  color: #fff;
+}
+
+#selengkapnya{
+  margin-left: 100px;
+}
