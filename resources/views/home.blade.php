@@ -28,8 +28,6 @@
                 <button class="button-secondary">
                     <a href="/posts" style="text-decoration: none; color: white">Lihat Buku</a>
                 </button>
-                <a href="/posts">
-                    <img src="img/usmanhome/back.png" alt="" width="30px" height="30px" /></a>
             </div>
         </div>
         <img src="img/usmanhome/perpus.png" alt="" class="h-100 position-absolute top-0 end-0 img-hero my-auto" />
