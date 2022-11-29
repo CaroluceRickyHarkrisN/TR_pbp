@@ -13,19 +13,23 @@
 <body>
 
     @include('partials.navbar')
+    <br><br>
     <section id="hero">
-        <div class="container h-100">
-            <div class="row h-100">
+        <div class="container h-100">     
+            <div class="row">
+                <div class="kotak h-50 bg-dark bg-opacity-50">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="col-lg-4 col-md-12 hero-judul mx-auto my-5 mt-5">
+                            <div class="hero1 col-lg-4 col-md-12 hero-judul mx-auto my-5 mt-5">
                                 <h1>About Us</h1>
+                                <hr/>
                                 <h2>Perpustakan Onotodewe</h2>
-                                <button id="selengkapnya" class="btn btn-light px-4 py-2 fs-5 mt-5" onclick="window.location.href='#about1'">Learn More</button>
+                                <button id="selengkapnya" class="btn btn-primary rounded-pill px-4 py-2 fs-5 mt-5" onclick="window.location.href='#about1'">Learn More</button>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

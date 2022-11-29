@@ -34,16 +34,20 @@ col-md-4{
 }
 
 
-.hero-judul h1{
+.hero1 h1{
   text-align: center;
-  margin-top: 220px;
+  margin-top: 100px;
   color: #fff;
 }
 
-.hero-judul h2{
+.hero1 h2{
+  color: #fff;
+}
+.hero1 hr{
   color: #fff;
 }
 
-#selengkapnya{
-  margin-left: 100px;
+.kotak{
+  margin-top: 120px;
+  text-align: center;
 }
