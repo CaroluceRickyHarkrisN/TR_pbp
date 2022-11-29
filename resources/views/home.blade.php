@@ -139,7 +139,6 @@
                         <img src="img/usmanhome/buku1.jpg" alt="" class="img-keterangan">
                         <div class="card-body">
                             <h4 class="lh-sm">The Lord of The Rings</h4>
-                            <p class="mb-4 lh-sm">The Fellowship of The Ring<br><br><span class="text-danger">Dibaca 5Jt orang</span></p>
                         </div>
 
                         <!-- Keterangan -->
@@ -155,158 +154,13 @@
                             </span>
 
                             <span>
-                                <img src="img/usmanhome/tahun.png" alt="" class="img-keteranganicon">
-                                <p>1954</p>
+                                <button class="btn btn-dark read"><i class="bi bi-book"></i> Read</button>
                             </span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Buku2 -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
-                    <div class="card mt-5 p-2" style="width: 22rem;">
-                        <img src="img/usmanhome/buku2.jpg" alt="" class="img-keterangan">
-                        <div class="card-body">
-                            <h4 class="lh-sm">The Chronicles of Narnia</h4>
-                            <p class="mb-4 lh-sm">The Lion, the Witch and the Wardrobe<br><br><span class="text-danger">Dibaca 3Jt orang</span></p>
-                        </div>
-
-                        <!-- Keterangan -->
-                        <div class="card-keterangan d-flex justify-content-between px-4">
-                            <span>
-                                <img src="img/usmanhome/genre.png" alt="" class="img-keteranganicon">
-                                <p>Advanture</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/penulis.png" alt="" class="img-keteranganicon">
-                                <p>C.S. Lewis</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/tahun.png" alt="" class="img-keteranganicon">
-                                <p>1956</p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Buku3 -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
-                    <div class="card mt-5 p-2" style="width: 22rem;">
-                        <img src="img/usmanhome/buku3.jpg" alt="" class="img-keterangan">
-                        <div class="card-body">
-                            <h4 class="lh-sm">Tere Liye </h4>
-                            <p class="mb-4 lh-sm">Bumi <br><br><span class="text-danger">Dibaca 1Jt orang</span></p>
-                        </div>
-
-                        <!-- Keterangan -->
-                        <div class="card-keterangan d-flex justify-content-between px-4">
-                            <span>
-                                <img src="img/usmanhome/genre.png" alt="" class="img-keteranganicon">
-                                <p>Fantasy</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/penulis.png" alt="" class="img-keteranganicon">
-                                <p>Darwis</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/tahun.png" alt="" class="img-keteranganicon">
-                                <p>2014</p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Buku4 -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
-                    <div class="card mt-5 p-2" style="width: 22rem;">
-                        <img src="img/usmanhome/buku4.jpg" alt="" class="img-keterangan">
-                        <div class="card-body">
-                            <h4 class="lh-sm">Laut Bercerita</h4>
-                            <p class="mb-4 lh-sm">Penghilangan secara paksa 13 aktivis <br><br><span class="text-danger">Dibaca 500Rb orang</span></p>
-                        </div>
-
-                        <!-- Keterangan -->
-                        <div class="card-keterangan d-flex justify-content-between px-4">
-                            <span>
-                                <img src="img/usmanhome/genre.png" alt="" class="img-keteranganicon">
-                                <p>Fiksi Sejarah</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/penulis.png" alt="" class="img-keteranganicon">
-                                <p>Leila S. Chudor</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/tahun.png" alt="" class="img-keteranganicon">
-                                <p>2017</p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Buku5 -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
-                    <div class="card mt-5 p-2" style="width: 22rem;">
-                        <img src="img/usmanhome/buku5.jpg" alt="" class="img-keterangan">
-                        <div class="card-body">
-                            <h4 class="lh-sm">Kriptografi</h4>
-                            <p class="mb-4 lh-sm">Edisi ke 2 <br><br><span class="text-danger">Dibaca 800Rb orang</span></p>
-                        </div>
-
-                        <!-- Keterangan -->
-                        <div class="card-keterangan d-flex justify-content-between px-4">
-                            <span>
-                                <img src="img/usmanhome/genre.png" alt="" class="img-keteranganicon">
-                                <p>Edukasi</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/penulis.png" alt="" class="img-keteranganicon">
-                                <p>Renaldi Munir</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/tahun.png" alt="" class="img-keteranganicon">
-                                <p>2019</p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Buku6 -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
-                    <div class="card mt-5 mb-5 p-2" style="width: 22rem;">
-                        <img src="img/usmanhome/buku6.jpg" alt="" class="img-keterangan">
-                        <div class="card-body">
-                            <h4 class="lh-sm">Ethical Hacking</h4>
-                            <p class="mb-4 lh-sm">Kali Linux <br><br><span class="text-danger">Dibaca 10Jt orang</span></p>
-                        </div>
-
-                        <!-- Keterangan -->
-                        <div class="card-keterangan d-flex justify-content-between px-4">
-                            <span>
-                                <img src="img/usmanhome/genre.png" alt="" class="img-keteranganicon">
-                                <p>Edukasi</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/penulis.png" alt="" class="img-keteranganicon">
-                                <p>Hugo Hoffman</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/tahun.png" alt="" class="img-keteranganicon">
-                                <p>2020</p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
+                
                 <div class="mb-5">
                     <center><a class="lihat" href="/posts" style="text-decoration: none;">Lihat Lainnya...</a></center>
                 </div>

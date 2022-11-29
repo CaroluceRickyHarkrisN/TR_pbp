@@ -14,12 +14,14 @@
     transition: all ease-in-out 0.3s;
   }
 
-  .bg-transparent {
+  .bg-color {
+    background-color: #393a3b;
     transition: all ease-in 0.3s;
   }
 
   .navbar-brand {
     font-weight: 500;
+    margin-left: 10px;
   }
 
   * {
@@ -52,10 +54,10 @@
   }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100">
+<nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 bg-color">
   <div class="container">
-    </b><a class="navbar-brand" href="/">
-      <img src="img/usmanhome/logo.png" alt="" width="30" class="d-inline-block align-text-top">
+  <img src="img/usmanhome/logo.png" alt="" width="30" class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="/">
       Onotodewe</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,7 +99,7 @@
           </ul>
         </li>
         @else
-        <li class="nav-item">
+            <li class="nav-item">
                 <a href="/login" class="nav-link"><i class="bi bi-box-arrow-in-right"></i> Login</a>
             </li>
 
@@ -112,9 +114,9 @@
   window.addEventListener('scroll', function() {
     console.log(window.scrollY);
     if (window.scrollY > 1) {
-      navbar.classList.replace('bg-transparent', 'nav-color');
+      navbar.classList.replace('bg-color', 'nav-color');
     } else if (this.window.scrollY <= 0) {
-      navbar.classList.replace('nav-color', 'bg-transparent')
+      navbar.classList.replace('nav-color', 'bg-color')
     }
   });
 </script>
