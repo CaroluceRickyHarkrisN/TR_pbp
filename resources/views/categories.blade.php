@@ -12,8 +12,8 @@
 <body>
 
     @include('partials.navbar')
-
-    <h1 class="mt-4 mb-2 text-center">Categories</h1>
+    <br><br><br><br>
+    <h1 class="mb-2 text-center">Categories</h1><br>
     <div class="container">
         <div class="row">
             <hr/>
