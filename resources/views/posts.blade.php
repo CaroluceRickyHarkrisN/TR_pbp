@@ -1,6 +1,7 @@
 @extends('layouts.main')
 @section('container')
 
+<br><br><br><br>
 <h1 class="mb-3 text-center">{{ $title }}</h1>
 
     <div class="row justify-content-center mb-3">

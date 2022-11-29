@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="hasan/css/style.css">
 </head>
 <body>
-
     @include('partials.navbar')
+    <br><br><br><br>
 
     <center><h1 class="mb-5">Categories</h1></center>
 
