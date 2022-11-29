@@ -20,7 +20,7 @@
 
   .button-primary:hover{
     background-color: #1d5fc9;
-  
+
     transition: all .2s ease-in;
   }
 
@@ -35,14 +35,14 @@
     width: 1000px;
     z-index: 1;
   }
-  
+
   .hero-judul h1 {
     color: #fff;
     font-weight: 700;
     font-size: 40px;
     line-height: 70px;
   }
-  
+
   .hero-judul p {
     color: #fff;
     font-size: 18px;
@@ -77,10 +77,10 @@
     margin-top: -10px;
     border-radius: 50px;
   }
-  
+
   .button-secondary:hover {
     background-color: #1d5fc9;
-  
+
     transition: all .2s ease-in;
   }
 
@@ -166,7 +166,7 @@
 
   .button-arrow-left:hover{
     background-color: #1d5fc9;
-  
+
     transition: all .2s ease-in;
   }
 
@@ -182,7 +182,7 @@
 
   .button-arrow-right:hover{
     background-color: #1d5fc9;
-  
+
     transition: all .2s ease-in;
   }
 
@@ -232,7 +232,7 @@
     color: #fff;
     transition: all ease-in-out .3s;
   }
-  
+
   .card-keterangan {
     position: absolute;
     right: 0;
@@ -294,10 +294,10 @@
     margin-left: 0em;
     border-radius: 50px;
   }
-  
+
   .button-secondary1:hover {
     background-color: #1d5fc9;
-  
+
     transition: all .2s ease-in;
   }
 
@@ -448,7 +448,7 @@
 
   .button-kontak:hover{
     background-color: #1d5fc9;
-  
+
     transition: all ease-in-out .2s;
   }
 

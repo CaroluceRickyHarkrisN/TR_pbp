@@ -7,7 +7,7 @@
     <title>Perpus Onotodewe | {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    
+
     <link rel="stylesheet" href="usman/css/style.css">
     <link rel="stylesheet" href="usman/css/usmanresponsive.css" />
 </head>
@@ -116,55 +116,6 @@
                 </button>
             </div>
 
-        </div>
-    </section>
-
-    <!-- Rekomendasi Buku -->
-    <section id="rekomendasi">
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col-12 text-center">
-                    <h2 style="color: rgb(47, 50, 50); font-weight: 500;">
-                        Rekomendasi Buku Untuk Anda
-                    </h2>
-                    <p>Siap memberikan rekomendasi buku terbaik untuk mu.</p>
-                </div>
-            </div>
-
-            <!-- Card Rekomendasi -->
-            <div class="row">
-                <!-- Buku1 -->
-                <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
-                    <div class="card mt-5 p-2" style="width: 22rem;">
-                        <img src="img/usmanhome/buku1.jpg" alt="" class="img-keterangan">
-                        <div class="card-body">
-                            <h4 class="lh-sm">The Lord of The Rings</h4>
-                        </div>
-
-                        <!-- Keterangan -->
-                        <div class="card-keterangan d-flex justify-content-between px-4">
-                            <span>
-                                <img src="img/usmanhome/genre.png" alt="" class="img-keteranganicon">
-                                <p>Fantasy</p>
-                            </span>
-
-                            <span>
-                                <img src="img/usmanhome/penulis.png" alt="" class="img-keteranganicon">
-                                <p>J.R.R Tolkien</p>
-                            </span>
-
-                            <span>
-                                <button class="btn btn-dark read"><i class="bi bi-book"></i> Read</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                
-                <div class="mb-5">
-                    <center><a class="lihat" href="/posts" style="text-decoration: none;">Lihat Lainnya...</a></center>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -297,7 +248,7 @@
 
 
     @include('partials.footer')
-      <script src="js/usmanhome.js"></script>  
+      <script src="js/usmanhome.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
