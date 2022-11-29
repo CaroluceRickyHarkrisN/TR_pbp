@@ -27,7 +27,7 @@
                     @if ($post->image)
                         <img src="{{ asset('storage/'.$post->image) }}" alt="{{ $post->category->name }}" class="img-keterangan">
                     @else
-                        <img src="https://picsum.photos/1920/1080?{{ $post->category->name }}" class="img-keterangan" alt="{{ $post->category->name }}">
+                        <img src="https://picsum.photos/1920/1080?book" class="img-keterangan" alt="{{ $post->category->name }}">
                     @endif
                     <div class="card-body">
                         <h4 class="lh-sm">{{ $post->title }}</h4>

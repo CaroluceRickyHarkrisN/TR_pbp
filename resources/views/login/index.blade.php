@@ -12,7 +12,7 @@
 <body>
 
     @include('partials.navbar')
-
+    <br><br><br><br><br>
     <div class="row justify-content-center">
         <div class="col-md-4 mt-3">
 
@@ -56,6 +56,7 @@
             </main>
         </div>
     </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     @include('partials.footer')
 

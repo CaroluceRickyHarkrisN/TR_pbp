@@ -12,7 +12,7 @@
 <body>
 
     @include('partials.navbar')
-
+    <br><br><br><br><br>
     <div class="row justify-content-center">
         <div class="col-lg-5 mt-3">
             <main class="form-registration">
@@ -66,7 +66,7 @@
             </main>
         </div>
     </div>
-
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     @include('partials.footer')
 
