@@ -188,10 +188,10 @@
               <div class="col-xs-6 col-md-3">
                   <h6>Quick Links</h6>
                   <ul class="footer-links">
-                      <li><a href="/">Home</a></li>
-                      <li><a href="/about">About Us</a></li>
-                      <li><a href="/posts"">Onotodewe Book</a></li>
-                      <li><a href="/categories">Onotodewe Categories</a></li>
+                      <li><a style="text-decoration: none;" href="/">Home</a></li>
+                      <li><a style="text-decoration: none;" href="/about">About Us</a></li>
+                      <li><a style="text-decoration: none;" href="/posts"">Onotodewe Book</a></li>
+                      <li><a style="text-decoration: none;" href="/categories">Onotodewe Categories</a></li>
                   </ul>
               </div>
           </div>

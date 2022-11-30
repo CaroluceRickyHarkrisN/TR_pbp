@@ -148,7 +148,7 @@ button{
 	justify-content: center;
 	display: block;
 	color: #fff;
-	background: #2b53b9;
+	background: #1B72FF;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -159,7 +159,7 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #498ae0;
+	background: #1d5fc9;
 }
 
 
@@ -167,25 +167,25 @@ button:hover{
     text-decoration: none;
     font-size: 15px;
     line-height: 20px;
-    color: #07c5ff;
+    color: #1B72FF;
 }
 
 .loginbox a:hover
 {
     text-decoration: underline;
-    color: #07c5ff;
+    color:#1d5fc9;
 }
 
 .registerbox a{
     text-decoration: none;
     font-size: 15px;
     line-height: 20px;
-    color: #07c5ff;
+    color: #1B72FF;
 }
 
 .registerbox a:hover
 {
     text-decoration: underline;
-    color: #07c5ff;
+    color: #1d5fc9;
 }
 
