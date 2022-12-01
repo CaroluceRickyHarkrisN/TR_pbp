@@ -1,0 +1,119 @@
+@media screen and (max-width : 922px) {
+    .img-hero{
+        width: 0%;
+    }
+
+    .card-contact h2{
+        color: #1B72FF;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 21px;
+        margin-top: -20px;
+      }
+
+      .card-contact{
+        margin-top: 20px;
+      }
+
+      .card-teknik {
+        width: 100%;
+        height: 350px;
+    }
+
+    .card-teknik:hover {
+        width: 100%;
+        height: 350px;
+    }
+
+    .hero-manfaat h2{
+        margin-top: -30px;
+    }
+
+    .card-panduan .overlay{
+        width: 80%;
+        margin-left: 89px;
+      }
+    
+      .card-panduan .overlay:hover{
+        width: 80%;
+        margin-left: 89px;
+      }
+    
+      .imgpanduan{
+        width: 80%;
+        margin-left: 89px;
+      }
+
+
+    }
+
+@media screen and (max-width : 576px) {
+    .hero-judul h1{
+        line-height: 52px;
+        text-align: center;
+    }
+
+    .hero-judul p{
+        text-align: center;
+    }
+
+    .button-secondary{
+        margin-left: 150px;
+    }
+
+    .img-hero{
+        width: 0%;
+    }
+
+    .hero-manfaat h2{
+        margin-top: -37px;
+        line-height: 30px;
+    }
+
+    .hero-manfaat p{
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .button-secondary1{
+        width: 30%;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .card-teknik{
+        margin-top: 20px;
+    }
+
+    .card-teknik {
+        width: 100%;
+        height: 260px;
+    }
+
+    .card-teknik:hover {
+        width: 100%;
+        height: 280px;
+    }
+
+    .card-panduan .overlay{
+        width: 80%;
+        margin-left: 65px;
+      }
+    
+      .card-panduan .overlay:hover{
+        width: 80%;
+        margin-left: 65px;
+      }
+    
+      .imgpanduan{
+        width: 80%;
+        margin-left: 65px;
+      }
+}
+
+@media screen and (max-width: 350px) {
+    
+}

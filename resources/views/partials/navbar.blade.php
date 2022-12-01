@@ -1,48 +1,122 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="/">Onotodewe</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link {{ Request::is('/') ? 'active' : ''}}" href="/">Home</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link {{ Request::is('about') ? 'active' : ''}}" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {{ Request::is('posts') ? 'active' : ''}}" href="/posts">Book</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {{ Request::is('categories') ? 'active' : ''}}" href="/categories">Categories</a>
-          </li>
-        </ul>
+<style>
+  :root {
+    --pr-color: #000000;
+  }
 
-        <ul class="navbar-nav ms-auto">
+  .navbar {
+    z-index: 3;
+  }
+
+  /* Navbar Color */
+
+  .nav-color {
+    background-color: rgb(23, 23, 23);
+    transition: all ease-in-out 0.3s;
+  }
+
+  .bg-color {
+    background-color: #393a3b;
+    transition: all ease-in 0.3s;
+  }
+
+  .navbar-brand {
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  * {
+    z-index: 2;
+  }
+
+  .nav-link:hover {
+    color: #fff;
+  }
+
+  .nav-link.active {
+    font-weight: 700;
+  }
+
+  .button-primary {
+    background-color: #1B72FF;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+  }
+
+  .button-primary:hover {
+    background-color: #1d5fc9;
+
+    transition: all .2s ease-in;
+  }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 bg-color">
+  <div class="container">
+  <img src="img/usmanhome/logo.png" alt="" width="30" class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="/">
+      Onotodewe</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('/') ? 'active' : ''}}" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('about') ? 'active' : ''}}" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('posts') ? 'active' : ''}}" href="/posts">Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('categories') ? 'active' : ''}}" href="/categories">Categories</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ms-auto">
         @auth
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                {{ auth()->user()->name }}
-                </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="/dashboard"><i class="bi bi-layout-text-sidebar-reverse"></i>  Dashboard</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li>
-                            <form action="/logout" method="post">
-                                @csrf
-                                <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-in-right"></i>  Logout</button>
-                            </form>
-                        </li>
-                    </ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ auth()->user()->name }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/dashboard"><i class="bi bi-layout-text-sidebar-reverse"></i> Dashboard</a></li>
+            <li>
+              <hr class="dropdown-divider">
             </li>
+            <li>
+              <form action="/logout" method="post">
+                @csrf
+                <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-in-right"></i> Logout</button>
+              </form>
+            </li>
+          </ul>
+        </li>
         @else
             <li class="nav-item">
                 <a href="/login" class="nav-link"><i class="bi bi-box-arrow-in-right"></i> Login</a>
             </li>
+
         @endauth
-        </ul>
-      </div>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
+<script>
+  const navbar = document.getElementsByTagName('nav')[0]
+  window.addEventListener('scroll', function() {
+    console.log(window.scrollY);
+    if (window.scrollY > 1) {
+      navbar.classList.replace('bg-color', 'nav-color');
+    } else if (this.window.scrollY <= 0) {
+      navbar.classList.replace('nav-color', 'bg-color')
+    }
+  });
+</script>

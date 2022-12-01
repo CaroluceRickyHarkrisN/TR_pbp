@@ -1,0 +1,13 @@
+@media screen and (max-width : 576px) {
+    .hero-judul h1{
+        margin-left: 20px;
+    }
+
+    .hero-judul h2{
+        margin-left: 90px;
+    }
+
+    #selengkapnya{
+        margin-left: 160px;
+    }
+}
