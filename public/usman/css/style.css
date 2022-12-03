@@ -31,8 +31,7 @@
   }
 
   .img-hero {
-    height: 100%;
-    width: 1000px;
+    width: 60%;
     z-index: 1;
   }
 
@@ -273,8 +272,7 @@
   /* Manfaat */
 
   #manfaat{
-    background: var(--pr-color);
-    height: 45vh;
+    background-color: #000;
     width: 100%;
     color: #fff;
   }
