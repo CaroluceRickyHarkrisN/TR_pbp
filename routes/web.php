@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminCategoryController;
 use App\Models\Category;
 
 use Illuminate\Support\Facades\Route;
@@ -8,6 +9,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 use App\Http\Controllers\DashboardPostController;
+use GuzzleHttp\Middleware;
 
 /*
 |--------------------------------------------------------------------------
@@ -82,22 +84,10 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/dashboard', function(){ return view('dashboard.index'); })->middleware('auth');
 
 Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'checkSlug'])->middleware('auth');
+
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
 
+Route::resource('/dashboard/categories', AdminCategoryController::class)->except('show')->middleware('admin');
 
 
-// Route::get('/categories/{category:slug}', function(Category $category){
-//     return view('posts', [
-//         'title' => "Post By Category : $category->name",
-//         "active" => 'categories',
-//         'posts' => $category->posts->load('category', 'author'),
-//     ]);
-// });
-
-// Route::get('/authors/{author:username}', function(User $author){
-//     return view('posts', [
-//         'title' => "Post By Author : $author->name",
-//         'posts' => $author->posts->load('category', 'author'),
-//     ]);
-// });
 
