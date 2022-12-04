@@ -27,12 +27,6 @@
                 Book Categories
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link {{ Request::is('dashboard/adminposts*') ? 'active' : ''}}" href="/dashboard/adminposts">
-                <span data-feather="grid"></span>
-                Admin Posts
-            </a>
-        </li>
       </ul>
       @endcan
 
