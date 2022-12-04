@@ -44,7 +44,7 @@
                      <i class="fa fa-book"></i>
                      <h3>Sejarah</h3>
                      <hr>
-                     <p style="text-align: justify"> Perpustakaan Onotodewe didirikan pada tahun 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
+                     <p style="text-align: justify"> Perpustakaan Onotodewe didirikan oleh 4 Mahasiswa UKSW pada tanggal 3 Desember 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
                  </div>
              </div>
              <div class="col-md-4">
@@ -52,7 +52,7 @@
                  <i class="fa fa-globe"></i>
                  <h3>Visi Misi</h3>
                  <hr>
-                 <p style="text-align: justify"> Perpustakaan Onotodewe didirikan pada tahun 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
+                 <p style="text-align: justify"> Onotodewe memiliki tujuan untuk meningkatkan budaya membaca yang saat ini sudah mulai hilang. Diharapkan dengan adanya Web ini, dapat membantu pengguna dalam menemukan buku yang di inginkan. </p>
              </div>
          </div>
          <div class="col-md-4">
@@ -60,7 +60,7 @@
              <i class="fa fa-pencil"></i>
              <h3>Penghargaan</h3>
              <hr>
-             <p style="text-align: justify"> Perpustakaan Onotodewe didirikan pada tahun 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
+             <p style="text-align: justify"> Beberapa pengharagaan yang di dapat Onotodewe yaitu : Perpustakaan Digital Terbaik, Peringkat 2 Perangkingan Repository Institusi, Perpustakaan Digital Terlengkap, dan masih banyak lagi. </p>
          </div>
      </div>
  </div>
@@ -71,7 +71,7 @@
         <i class="fa fa-book"></i>
         <h3>Fitur</h3>
         <hr>
-        <p style="text-align: justify"> Perpustakaan Onotodewe didirikan pada tahun 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
+        <p style="text-align: justify"> Untuk saat ini fitur-fitur yang dimiliki oleh Onotodewe yaitu, fitur pencarian yang berdasarkan kategori, fitur untuk membaca buku, dan fitur untuk membuat buku anda sendiri. </p>
     </div>
 </div>
 <div class="col-md-4">
@@ -79,7 +79,7 @@
     <i class="fa fa-globe"></i>
     <h3>Keunggulan</h3>
     <hr>
-    <p style="text-align: justify"> Perpustakaan Onotodewe didirikan pada tahun 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
+    <p style="text-align: justify"> Keunggulan Onotodewe yaitu terletak pada biaya yang harus di keluarkan, karena Onotodewe memiliki tugas mulia untuk mencerdaskan kehidupan bangsa sehingga 100% gratis.</p>
 </div>
 </div>
 <div class="col-md-4">
@@ -87,7 +87,7 @@
     <i class="fa fa-pencil"></i>
     <h3>Partner</h3>
     <hr>
-    <p style="text-align: justify"> Perpustakaan Onotodewe didirikan pada tahun 2022 yang diharapkan mampu bersaing dengan perpustakaan-perpustakaan digital lainnya. </p>
+    <p style="text-align: justify"> UKSW Salatiga, Kemendikbud, Kompas Gramdedia, Media Indonesia, Tribunnews, JatengPost, Pemkot Salatiga, BCA, Bank Jateng, Deepublish, Gramedia, dan masih banyak lagi.</p>
 </div>
 </div>
 </div>

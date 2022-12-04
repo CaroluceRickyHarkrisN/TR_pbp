@@ -31,8 +31,7 @@
   }
 
   .img-hero {
-    height: 100%;
-    width: 1000px;
+    width: 60%;
     z-index: 1;
   }
 
@@ -65,17 +64,26 @@
     border-radius: 50px;
   }
 
+  .button-secondary2 a{
+    color: #fff;
+  }
+
   .button-secondary2{
     width: 133px;
     height: 40px;
     background-color: #1B72FF;
-    color: #fff;
     border: none;
     font-size: 16px;
     font-weight: 700;
     margin-left: 0em;
     margin-top: -10px;
     border-radius: 50px;
+  }
+
+  .button-secondary2:hover{
+    background-color: #1d5fc9;
+
+    transition: all .2s ease-in;
   }
 
   .button-secondary:hover {
@@ -264,8 +272,7 @@
   /* Manfaat */
 
   #manfaat{
-    background: var(--pr-color);
-    height: 45vh;
+    background-color: #000;
     width: 100%;
     color: #fff;
   }
@@ -450,6 +457,28 @@
     background-color: #1d5fc9;
 
     transition: all ease-in-out .2s;
+  }
+
+  /* Panduan */
+
+  #panduan h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1B72FF;
+  }
+
+  #panduan h3{
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  #panduan p{
+    margin-top: 5px;
+  }
+
+  #panduan li{
+    font-size: 16px;
+    margin-top: 3px;
   }
 
 

@@ -27,6 +27,27 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/tatib', function () {
+    return view('tatib', [
+        "title" => "Tata Tertib",
+        "active" => 'tatib'
+    ]);
+});
+
+Route::get('/prosedur', function () {
+    return view('prosedur', [
+        "title" => "Prosedur",
+        "active" => 'prosedur'
+    ]);
+});
+
+Route::get('/lokasi', function () {
+    return view('lokasi', [
+        "title" => "Lokasi",
+        "active" => 'lokasi'
+    ]);
+});
+
 Route::get('/about', function () {
     return view('about', [
         "title" => "About",
