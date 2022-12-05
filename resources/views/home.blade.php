@@ -27,9 +27,7 @@
                         hadir untuk membantu anda dalam memberikan informasi mengenai panduan, buku, dan
                         update lainnya dari Perpustakaan Onotodewe.
                     </p>
-                    <button class="button-secondary">
-                        <a href="/posts" style="text-decoration: none; color: white">Lihat Buku</a>
-                    </button>
+                        <a href="/posts" class="btn button-secondary" style="text-decoration: none; color: white">Show Book</a>
                 </div>
             </div>
             <img src="img/usmanhome/perpus.png" alt="" class="h-100 position-absolute top-0 end-0 img-hero my-auto" />
@@ -117,7 +115,7 @@
         <section id="manfaat">
             <div class="container">
                 <div class="row mt-5 mb-5 text-center">
-                    <div class="col-12 mt-5 mb-5 hero-manfaat">
+                    <div class="col-12 mt-5 hero-manfaat">
                         <h2 style="font-weight: 700;">
                             Onotodewe, Layanan Perpustakaan Digital
                         </h2>
@@ -127,7 +125,7 @@
                         <p style="font-weight: 400;" class="mt-2">Ayo bergabung dengan Onotodewe sekarang!</p>
                         <center>
                             <button class="button-secondary1 mt-3 mb-5">
-                                <a href="/register" style="text-decoration: none; color: white">Bergabung</a>
+                                <a href="/register" style="text-decoration: none; color: white">Sign Up</a>
                             </button>
                         </center>
                     </div>
@@ -140,7 +138,7 @@
         <br>
         <section id="Testimoni">
             <div class="container">
-                <div class="row mt-5 mb-5">
+                <div class="row mb-5">
                     <div class="col-12 text-center">
                         <h2 style="color: rgb(47, 50, 50); font-weight: 500;">
                             Testimoni dari Pengguna Onotodewe
@@ -222,15 +220,15 @@
                                     <h2>Ada Pertanyaan...?</h2>
                                     <div class="form-floating mb-3">
                                         <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                        <label for="floatingInput" class="d-flex align-items-center">Masukkan Email anda disini</label>
+                                        <label for="floatingInput" class="d-flex align-items-center">Enter your Email here</label>
                                     </div>
 
                                     <div class="form-floating mb-3">
                                         <input type="text" name="nama" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                        <label for="floatingInput class=" d-flex align-items-center"">Pertanyaan Anda...</label>
+                                        <label for="floatingInput class=" d-flex align-items-center>Your question...</label>
                                     </div>
 
-                                    <button type="submit" name="submit" class="button-kontak">Kirim</button>
+                                    <button type="submit" name="submit" class="button-kontak">Send</button>
                                 </form>
                             </div>
                         </div>

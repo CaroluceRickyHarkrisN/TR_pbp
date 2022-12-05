@@ -13,9 +13,9 @@
 
     <div class="table-responsive col-lg-10">
         <a href="/dashboard/posts/create" class="btn btn-primary mb-3 rounded-pill"> Add New Book</a>
-        <table class="table">
+        <table class="table table-hover">
           <thead class="thead-dark">
-            <tr>
+            <tr class="table-dark">
               <th scope="col">No</th>
               <th scope="col">Title</th>
               <th scope="col">Category</th>
