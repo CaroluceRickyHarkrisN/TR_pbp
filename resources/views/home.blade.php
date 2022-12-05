@@ -28,7 +28,7 @@
                         update lainnya dari Perpustakaan Onotodewe.
                     </p>
                     <button class="button-secondary py-2 fs-5 mt-5">
-                        <a href="/posts" style="text-decoration: none; color: white">View Books</a>
+                        <a href="/posts" style="text-decoration: none; color: white">Show Books</a>
                     </button>
                 </div>
             </div>
