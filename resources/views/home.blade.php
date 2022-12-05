@@ -27,9 +27,7 @@
                         hadir untuk membantu anda dalam memberikan informasi mengenai panduan, buku, dan
                         update lainnya dari Perpustakaan Onotodewe.
                     </p>
-                    <button class="button-secondary py-2 fs-5 mt-5">
-                        <a href="/posts" style="text-decoration: none; color: white">Show Books</a>
-                    </button>
+                        <a href="/posts" class="btn button-secondary" style="text-decoration: none; color: white">Show Book</a>
                 </div>
             </div>
             <img src="img/usmanhome/perpus.png" alt="" class="h-100 position-absolute top-0 end-0 img-hero my-auto" />
