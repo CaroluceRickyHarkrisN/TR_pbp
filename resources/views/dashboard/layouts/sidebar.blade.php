@@ -34,7 +34,7 @@
       <ul class="nav flex-column">
         <li class="nav-item">
             <a class="nav-link text-white {{ Request::is('dashboard/admins*') ? 'active' : ''}}" href="/dashboard/admins">
-                <span data-feather="grid"></span>
+                <span data-feather="users"></span>
                 User
             </a>
         </li>

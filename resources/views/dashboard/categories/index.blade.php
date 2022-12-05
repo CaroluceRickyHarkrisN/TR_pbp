@@ -43,9 +43,9 @@
     </div>
 
     <div class="table-responsive col-lg-6">
-        <table class="table">
+        <table class="table table-hover">
           <thead class="thead-dark">
-            <tr>
+            <tr class="table-dark">
               <th scope="col">No</th>
               <th scope="col">Category List</th>
               <th scope="col">Delete</th>

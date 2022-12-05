@@ -6,10 +6,10 @@
     <h1 class="h2">Author List</h1>
 </div>
 
-<div class="table-responsive col-lg-6">
-    <table class="table">
+<div class="table-responsive col-lg-4">
+    <table class="table table-hover">
       <thead class="thead-dark">
-        <tr>
+        <tr class="table-dark">
           <th scope="col">No</th>
           <th scope="col">Author List</th>
         </tr>
