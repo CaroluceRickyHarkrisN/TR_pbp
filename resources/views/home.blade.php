@@ -27,7 +27,7 @@
                         hadir untuk membantu anda dalam memberikan informasi mengenai panduan, buku, dan
                         update lainnya dari Perpustakaan Onotodewe.
                     </p>
-                    <button class="button-secondary">
+                    <button class="button-secondary py-2 fs-5 mt-5">
                         <a href="/posts" style="text-decoration: none; color: white">View Books</a>
                     </button>
                 </div>
